@@ -6,12 +6,13 @@ function App() {
   const [value, setvalue] = useState(0);
 
   return (
+    <>
   <h1>Count{value}</h1>
   <button onClick={
-    {}=>{}
-   setvalue(value+1)
+    ()=>{   setvalue(value+1)
+    }
   }>Add</button>
+</>
   )
 }
-
 export default App

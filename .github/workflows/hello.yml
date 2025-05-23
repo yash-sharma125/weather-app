@@ -1,0 +1,12 @@
+name: Hello Github Action
+
+on:
+push:
+ brachs: [develop]
+
+ jobs:
+ say_hello:
+ runs-on: urbuntu-latest
+ steps:
+      -name: print Greeting 
+      run: echo"hello,from Github Action!"

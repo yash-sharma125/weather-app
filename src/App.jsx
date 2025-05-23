@@ -9,9 +9,13 @@ function App() {
     <>
   <h1>Count{value}</h1>
   <button onClick={
-    ()=>{   setvalue(value+1)
+    ()=>{   setvalue(value+2)
     }
   }>Add</button>
+  <button onClick={
+    ()=>{   setvalue(value-1)
+    }
+  }>Substract</button>
 </>
   )
 }
